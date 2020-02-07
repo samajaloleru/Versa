@@ -49,16 +49,6 @@ body {
     text-align: right;
 }
 
-.navbar_item a {
-    color: #5e6dc3;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1rem;
-    text-decoration: none;
-    margin-right: 1rem;
-    text-align: right;
-}
-
 .navbar_item .button {
     border-color: #5e6dc3;
     border-radius: 9999px;
@@ -107,7 +97,7 @@ body {
 
 .section_one {
     display: block;
-    margin: 30px 4%;
+    margin: 20px 4%;
     text-decoration: none;
 
 }
@@ -154,6 +144,84 @@ body {
     display: block;
     height: 600px;
     width: 100%;
+}
+
+.section_two {
+    display: block;
+    border-top: 2px;
+    border-bottom: 0px;
+    border-right: 2px;
+    border-left: 2px;
+    border-color: #96ccff;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 110rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.section_two h1{
+    color: #5e6dc3;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.section_two p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.25;
+    max-width: 54em;
+    margin: auto;
+}
+
+.section_two_cardholder {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section_two_card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem;
+    text-align: center;
+    width: 50rem;
+}
+
+.section_two_card h1{
+    color: #5e6dc3;
+    font-size: 20px;
+    margin-top: 0;
+}
+.section_two_card p{
+    font-size: 15px;
+    line-height: 2;
+    max-width: 20em;
+    word-spacing: 5px;
+}
+
+.section_two_card img{
+    display: inline-block;
+    height: 8rem;
+    width: 8rem;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 30em) {
