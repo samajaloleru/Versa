@@ -157,10 +157,9 @@ body {
     border-top-right-radius: 1em;
     border-style: solid;
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 110rem;
+    max-width: 130rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 4rem;
@@ -224,6 +223,88 @@ body {
     padding: 1rem;
 }
 
+.section_three {
+    display: block;
+    background-color: #5e6dc3;
+    border-color: #5e6dc3 !important;
+    border-top: 0px;
+    border-bottom: 2px;
+    border-right: 2px;
+    border-left: 2px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-style: solid;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 130rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: left;
+}
+
+.section_three h1{
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.section_three_flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_three_start {
+    margin-bottom: 2rem;
+    padding-left: 10em;
+    padding-top: 5em;
+    width: 100%;
+}
+
+.section_three_start h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.section_three_start h1 span{
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-top: 0;
+    padding-right: 10px;
+}
+
+.section_three_start p{
+    font-size: 1.1rem;
+    line-height: 2;
+    max-width: 30em;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.section_three_end {
+    width: 100%;
+}
+
+.section_three_end img{
+    display: block;
+    width: 80%;
+    padding-top: 20px;
+}
+
+
 @media screen and (min-width: 30em) {
     .navbar {
         padding-left: 4rem;
@@ -252,5 +333,20 @@ body {
     .section_two {
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+
+    .section_three_flex {
+        flex-direction: row;
+    }
+
+    .section_three_start {
+        width: 50%;
+        margin-bottom: 0;
+        padding-right: 1rem;
+    }
+
+    .section_three_end {
+        width: 50%;
+        padding-left: 1rem;
     }
 }
