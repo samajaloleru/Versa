@@ -80,6 +80,21 @@ body {
     text-decoration: none;
 }
 
+.button_one {
+    background-color: #5e6dc3;
+    border-radius: 9999px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-decoration: none;
+}
+
 .button_two {
     background-color: #5e6dc3;
     border-radius: 9999px;
@@ -309,7 +324,7 @@ body {
     border-bottom: 0px;
     border-right: 2px;
     border-left: 2px;
-    border-color: #96ccff;
+    border-color: gray;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     border-style: solid;
@@ -402,6 +417,74 @@ body {
     text-decoration: none;
 }
 
+.section_five {
+    display: block;
+    border-color: gray !important;
+    border-top: 0px;
+    border-bottom: 2px;
+    border-right: 2px;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border-left: 2px;
+    border-style: solid;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 130rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: left;
+
+}
+
+.section_five_flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_five_start {
+    margin-bottom: 2rem;
+    padding-left: 5em;
+    padding-top: 5em;
+    width: 100%;
+}
+
+.section_five_start h1{
+    color: #5e6dc3;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.25;
+    margin-top: 0;
+}
+
+.section_five_start h1 span{
+    color: #707070;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.25;
+    margin-top: 0;
+}
+
+.section_five_start p{
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.section_five_end {
+    width: 100%;
+}
+
+.section_five_end img{
+    display: block;
+    height: 600px;
+    width: 100%;
+}
+
 
 @media screen and (min-width: 30em) {
     .navbar {
@@ -445,6 +528,21 @@ body {
 
     .section_three_end {
         width: 50%;
+        padding-left: 1rem;
+    }
+
+    .section_five_flex {
+        flex-direction: row;
+    }
+
+    .section_five_start {
+        width: 40%;
+        margin-bottom: 0;
+        padding-right: 1rem;
+    }
+
+    .section_five_end {
+        width: 60%;
         padding-left: 1rem;
     }
 }
