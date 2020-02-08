@@ -302,6 +302,106 @@ body {
     padding-top: 20px;
 }
 
+.section_four {
+    display: block;
+    background-color: gray;
+    border-top: 2px;
+    border-bottom: 0px;
+    border-right: 2px;
+    border-left: 2px;
+    border-color: #96ccff;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-style: solid;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 130rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.section_four h1{
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.section_four p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.25;
+    max-width: 54em;
+    margin: auto;
+}
+
+.section_four_cardholder {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section_four_card {
+    background-color: white;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 2rem;
+    text-align: center;
+    width: 50rem;
+}
+
+.section_four_card h1{
+    color: #5e6dc3;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 0;
+    text-align: left;
+}
+.section_four_card p{
+    font-size: 17px;
+    line-height: 2;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+.section_four_card img{
+    border-radius: .5rem;
+    display: inline-block;
+    height: 25rem;
+    margin-top: -50px;
+    width: 100%;
+    position: relative;
+}
+
+.section_four_card .button_two {
+    background-color: #5e6dc3;
+    border-radius: 9999px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 30em) {
     .navbar {
