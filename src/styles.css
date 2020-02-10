@@ -43,9 +43,9 @@ body {
     color: #5e6dc3;
     cursor: pointer;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     text-align: right;
 }
 
@@ -57,8 +57,8 @@ body {
     color: #5e6dc3;
     cursor: pointer;
     display: inline-block;
-    font-size: 1rem;
-    margin-right: 1rem;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 1rem;
@@ -72,11 +72,11 @@ body {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
     text-decoration: none;
 }
 
@@ -132,22 +132,23 @@ body {
 .section_one_start h1{
     color: #5e6dc3;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.25;
     margin-top: 0;
+    max-width: 44rem;
 }
 
 .section_one_start h1 span{
     color: #707070;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.25;
     margin-top: 0;
 }
 
 .section_one_start p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 2;
 }
 
@@ -201,7 +202,7 @@ body {
 
 .section_two_cardholder {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -216,7 +217,7 @@ body {
     margin-left: auto;
     padding: 2rem;
     text-align: center;
-    width: 50rem;
+    width: 20rem;
 }
 
 .section_two_card h1{
@@ -248,7 +249,6 @@ body {
     border-left: 2px;
     border-style: solid;
     margin-top: -10px;
-    margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
     max-width: 130rem;
@@ -276,7 +276,6 @@ body {
 
 .section_three_start {
     margin-bottom: 2rem;
-    padding-left: 10em;
     padding-top: 5em;
     width: 100%;
 }
@@ -300,6 +299,7 @@ body {
 }
 
 .section_three_start p{
+    color: #fff;
     font-size: 1.1rem;
     line-height: 2;
     max-width: 30em;
@@ -313,7 +313,7 @@ body {
 
 .section_three_end img{
     display: block;
-    width: 80%;
+    width: 100%;
     padding-top: 20px;
 }
 
@@ -325,18 +325,16 @@ body {
     border-right: 2px;
     border-left: 2px;
     border-color: gray;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
     border-style: solid;
-    margin-top: 20px;
+    margin-top: -10px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 130rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
+    width: 100%;
 }
 
 .section_four h1{
@@ -345,37 +343,28 @@ body {
     font-weight: 700;
     line-height: 1.5;
     margin-top: 0px;
-    margin-bottom: 1rem;
-}
-
-.section_four p{
-    font-size: 1.25rem;
-    font-weight: 300;
-    line-height: 1.25;
-    max-width: 54em;
-    margin: auto;
 }
 
 .section_four_cardholder {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 4rem;
+    padding-top: 1.2rem;
     padding-bottom: 4rem;
 }
 
 .section_four_card {
     background-color: white;
     border-radius: .5rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
     padding: 2rem;
     text-align: center;
-    width: 50rem;
+    width: 20rem;
 }
 
 .section_four_card h1{
@@ -448,22 +437,12 @@ body {
 
 .section_five_start {
     margin-bottom: 2rem;
-    padding-left: 5em;
     padding-top: 5em;
     width: 100%;
 }
 
 .section_five_start h1{
     color: #5e6dc3;
-    font-weight: 600;
-    font-size: 3.5rem;
-    line-height: 1.25;
-    margin-top: 0;
-}
-
-.section_five_start h1 span{
-    color: #707070;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: 3.5rem;
     line-height: 1.25;
@@ -485,6 +464,121 @@ body {
     width: 100%;
 }
 
+.footer {
+    background-color: #5e6dc3;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+}
+
+.footer h1{
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.footer p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: auto;
+}
+
+.footer_container {
+    margin: auto;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.footer_cardholder {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer_card {
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    width: 300px;
+}
+
+.footer_card h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.footer_card a{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.footer_card div{
+    display: table-cell;
+    justify-content: left;
+}
+
+.footer_card p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left;
+}
+
+.footer_card img{
+    background-color: #fff;
+    height: 10rem;
+    display: block;
+}
+
+.footer_flex {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer_start {
+    color: #fff;
+    width: 50%;
+    padding-right: 1rem;
+}
+
+.footer_start a {
+    color: #fff;
+}
+
+.footer_end {
+    text-align: right;
+    width: 50%;
+    padding-left: 1rem;
+}
+.footer_end p{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 1rem;
+}
+
+.animatedElement {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: initial;
+  }
+
+
 
 @media screen and (min-width: 30em) {
     .navbar {
@@ -501,19 +595,37 @@ body {
     }
 
     .section_one_start {
-        width: 40%;
+        width: 30%;
         margin-bottom: 0;
         padding-right: 1rem;
+        padding-left: 30px;
+    }
+
+    .section_one_start h1{
+        font-size: 4rem;
+        line-height: 1.25;
+    }
+
+    .section_one_start h1 span{
+        font-size: 4rem;
     }
 
     .section_one_end {
-        width: 60%;
+        width: 70%;
         padding-left: 1rem;
     }
 
     .section_two {
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+
+    .section_two_cardholder {
+        flex-direction: row;
+    }
+
+    .section_two_card {
+        width: 50rem;
     }
 
     .section_three_flex {
@@ -524,11 +636,29 @@ body {
         width: 50%;
         margin-bottom: 0;
         padding-right: 1rem;
+        padding-left: 10em;
     }
 
     .section_three_end {
         width: 50%;
         padding-left: 1rem;
+    }
+
+    .section_three_end img{
+        width: 80%;
+    }
+
+    .section_four {
+        max-width: 130rem;
+    }
+
+    .section_four_cardholder {
+        flex-direction: row;
+    }
+
+    .section_four_card {
+        margin-top: 1rem;
+        width: 50rem;
     }
 
     .section_five_flex {
@@ -543,6 +673,96 @@ body {
 
     .section_five_end {
         width: 60%;
+        padding-left: 1rem;
+    }
+
+    .footer_cardholder {
+        flex-direction: row;
+    }
+
+    .footer_container {
+        max-width: 110rem;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .section_one_start {
+        width: 50%;
+        margin-bottom: 0;
+        padding-right: 1rem;
+    }
+
+    .section_one_start h1{
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    .section_one_start h1 span{
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    .section_one_end {
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    .section_two {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section_two_card {
+        padding: 1rem;
+        width: 25rem;
+    }
+
+    .section_two_cardholder {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section_three_start {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    
+    .section_three_start h1{
+        font-size: 1.5rem;
+    }
+    
+    .section_three_start p{
+        line-height: 1.2;
+    }
+    
+    .section_three_end img{
+        width: 100%;
+    }
+    
+    .section_four_cardholder {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .section_four_card {
+        margin-top: 3rem;
+        width: 41rem;
+    }
+
+    .section_five_start {
+        width: 50%;
+        margin-bottom: 0;
+        padding-right: 1rem;
+    }
+
+    .section_five_start h1{
+        font-size: 2.3rem;
+        line-height: 1.25;
+        margin-top: 0;
+    }
+
+    .section_five_end {
+        width: 50%;
         padding-left: 1rem;
     }
 }
